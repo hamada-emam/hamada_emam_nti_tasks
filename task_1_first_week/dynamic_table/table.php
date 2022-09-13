@@ -62,7 +62,7 @@ $users = [
     //     "gender" => (object)[
     //         'gender' => 'f'
     //     ],
-    //     'hobbies' => [
+    //     'hobbies' => [                
     //         'running',
     //     ],
     //     'activities' => [
@@ -106,6 +106,7 @@ $users = [
             </tr>
         </thead>
         <tbody>
+
             <?php for ($i = 0; $i < count($users); $i++) { ?>
                 <tr>
                     <th scope="row"><?= "user_{$i}" ?></th>
@@ -118,6 +119,7 @@ $users = [
                                 // echo $col_key . "    :  " . "<br>";
                                 foreach ($col_param  as $level_two_key => $level_two_value) {
                                     if ($level_two_key == "gender") {
+
                                         $level_two_value =    $level_two_value == "m" ? "Male" : "Fmale";
                                     }
                                     echo  $level_two_key . "     :     " . $level_two_value  . "<br>";
