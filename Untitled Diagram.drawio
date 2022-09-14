@@ -1,1 +1,206 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T08:18:26.586Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YaoH_unxjeHG3HE4x9Lx" version="20.2.3" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-14T12:56:04.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tilJwFU6idMd5ZnVyUOy" version="20.2.3" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1237" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#74CC9A" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="basic syntax" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="20" width="100" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="1-PHP tags" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="70" as="sourcePoint" />
+            <mxPoint x="180" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-2" value="3-Instruction separation" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="0.0588" y="10" relative="1" as="geometry">
+            <mxPoint x="400" y="680" as="sourcePoint" />
+            <mxPoint x="570" y="680" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-1" value="2-Escaping from HTML" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="329.57" as="sourcePoint" />
+            <mxPoint x="575" y="329.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-6" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="To0ZdcIr7N4rgNkSANrO-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1000" as="sourcePoint" />
+            <mxPoint x="650" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-7" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="To0ZdcIr7N4rgNkSANrO-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1000" as="sourcePoint" />
+            <mxPoint x="680" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-8" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="To0ZdcIr7N4rgNkSANrO-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1000" as="sourcePoint" />
+            <mxPoint x="630" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-10" value="// (C++ style single line comment)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="950" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-11" value="# (Unix Shell style single line comment)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="990" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-12" value="/*&lt;br&gt;&amp;nbsp;normal comment inside php tages&lt;br&gt;&amp;nbsp;*/" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1040" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-14" value="single" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="970" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="To0ZdcIr7N4rgNkSANrO-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1000" as="sourcePoint" />
+            <mxPoint x="650" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-16" value="multi" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1020" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="To0ZdcIr7N4rgNkSANrO-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1000" as="sourcePoint" />
+            <mxPoint x="630" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-13" value="single" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="990" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="To0ZdcIr7N4rgNkSANrO-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1000" as="sourcePoint" />
+            <mxPoint x="680" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=-40;" vertex="1" parent="1">
+          <mxGeometry x="860" y="950" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-20" value="the same thing just&amp;nbsp;&lt;br&gt;the deffrence in appearance&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="820" y="950" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-22" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="To0ZdcIr7N4rgNkSANrO-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1035" as="sourcePoint" />
+            <mxPoint x="570" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-24" value="multi" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1055" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="To0ZdcIr7N4rgNkSANrO-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="1005" as="sourcePoint" />
+            <mxPoint x="570" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-28" value="/** &lt;br&gt;this comment for annotation php doc&lt;br&gt;*/" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1090" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-30" value="multi comments can be written any where inside the&amp;nbsp; code , but single must be sentence break code&amp;nbsp; يعني السينجل لازم يكون قبل او بعد جمله منتهيه مقفوله بمعني اصح انما المالتي ف اي مكان بين الكلمات بين السطور" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="420" y="900" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.487;exitY=0.843;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="870" as="sourcePoint" />
+            <mxPoint x="1080" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="535" width="20" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-34" value="&amp;lt;?php ?&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="-15" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-35" value="&amp;lt;?&amp;nbsp; &amp;nbsp;?&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="105" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-36" value="&amp;lt;?= &quot; &quot; ?&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="45" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-37" value="&amp;lt;?php ......" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="165" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-42" value="normal php tages" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#CC0000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-40" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#CC0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="To0ZdcIr7N4rgNkSANrO-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="-10" as="sourcePoint" />
+            <mxPoint x="740" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-46" value="&amp;lt;? echo &#39;this code is within short tags, but will only work &#39;. &#39;if short_open_tag is enabled&#39;; ?&amp;gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#CC0000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="90" width="400" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-48" value="echo php short hand tages" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#CC0000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="735" y="35" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-49" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#CC0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="To0ZdcIr7N4rgNkSANrO-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="685" y="65" as="sourcePoint" />
+            <mxPoint x="735" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-50" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#CC0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="685" y="122.5" as="sourcePoint" />
+            <mxPoint x="740" y="123" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-51" value="لو مفيش كود غير كود ال&lt;br&gt;php" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#CC0000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="165" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-52" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#CC0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="182.5" as="sourcePoint" />
+            <mxPoint x="735" y="182.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-3" value="4- Comments" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1000" as="sourcePoint" />
+            <mxPoint x="570" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-53" value="to use short hand must enable them into php.ini file&amp;nbsp;" style="shape=offPageConnector;whiteSpace=wrap;html=1;fontSize=16;fontColor=#CC0000;fillColor=none;rotation=0;size=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="100" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-54" value="that meens that you can write php code mixed with html code by using php full closed tag &amp;lt;?php ?&amp;gt; you can devide php cod into more than one tag mixed by html code&amp;nbsp;" style="shape=delay;whiteSpace=wrap;html=1;fontSize=16;fontColor=#CC0000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="270" width="545" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-55" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#CC0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="535" y="340" as="sourcePoint" />
+            <mxPoint x="625" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-57" value="&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;&amp;lt;?php&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 119, 0);&quot;&gt;if&amp;nbsp;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;$expression&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 119, 0);&quot;&gt;==&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;true&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 119, 0);&quot;&gt;):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;?&amp;gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; if&amp;nbsp;the&amp;nbsp;expression&amp;nbsp;is&amp;nbsp;true do html or php&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;&amp;lt;?php&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 119, 0);&quot;&gt;else:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;?&amp;gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; you can write html code here or php&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;&amp;lt;?php&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 119, 0);&quot;&gt;endif;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;?&amp;gt;&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#CC0000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="370" width="345" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-59" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.487;exitY=0.843;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400.00000000000006" y="240.0000000000001" as="sourcePoint" />
+            <mxPoint x="1081.3" y="240.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-60" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.487;exitY=0.843;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="520" as="sourcePoint" />
+            <mxPoint x="1086.3000000000002" y="520.1400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="To0ZdcIr7N4rgNkSANrO-61" value="=&amp;gt; the struction seperator meen the end of instruction code with ;&amp;nbsp;or with closing tag and ommit the last line ; .&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;&amp;lt;?php&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 119, 0);&quot;&gt;echo&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(221, 0, 0);&quot;&gt;&#39;This&amp;nbsp;is&amp;nbsp;a&amp;nbsp;test&#39;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 119, 0);&quot;&gt;;&lt;br&gt;&lt;/span&gt;new line of code&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;?&amp;gt;&lt;br&gt;&lt;/span&gt;new line of code&amp;nbsp;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;&amp;lt;?php&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 119, 0);&quot;&gt;echo&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(221, 0, 0);&quot;&gt;&#39;This&amp;nbsp;is&amp;nbsp;a&amp;nbsp;test&#39;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;?&amp;gt; end of line code&amp;nbsp;&lt;br&gt;&lt;/span&gt;new line of code&amp;nbsp;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 187);&quot;&gt;&amp;lt;?php&lt;br&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 119, 0);&quot;&gt;echo&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(221, 0, 0);&quot;&gt;&#39;We&amp;nbsp;omitted&amp;nbsp;the&amp;nbsp;last&amp;nbsp;closing&amp;nbsp;tag&#39;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(0, 119, 0);&quot;&gt;;&lt;br&gt;&lt;/span&gt;new line of code&amp;nbsp;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;You are able to write more than one statement in one line, just separating with semicolon as&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 102, 153); background-color: rgb(255, 255, 255); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left;&quot; class=&quot;default&quot;&gt;&amp;lt;?php&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 153, 51); background-color: rgb(255, 255, 255); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left;&quot; class=&quot;keyword&quot;&gt;echo&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 51, 51); background-color: rgb(255, 255, 255); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left;&quot; class=&quot;string&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 153, 51); background-color: rgb(255, 255, 255); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left;&quot; class=&quot;keyword&quot;&gt;; echo&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 51, 51); background-color: rgb(255, 255, 255); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left;&quot; class=&quot;string&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 153, 51); background-color: rgb(255, 255, 255); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left;&quot; class=&quot;keyword&quot;&gt;; echo&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 51, 51); background-color: rgb(255, 255, 255); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left;&quot; class=&quot;string&quot;&gt;&quot;c&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 153, 51); background-color: rgb(255, 255, 255); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left;&quot; class=&quot;keyword&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: var(--dark-blue-color); background-color: rgb(255, 255, 255); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left;&quot; class=&quot;comment&quot;&gt;#The output will be &quot;abc&quot; with no errors&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 102, 153); background-color: rgb(255, 255, 255); font-family: &amp;quot;Fira Mono&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 14px; text-align: left;&quot; class=&quot;default&quot;&gt;?&amp;gt;&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#CC0000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="530" width="720" height="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
