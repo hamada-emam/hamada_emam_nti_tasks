@@ -58,7 +58,7 @@
                             <p> <?= $_POST['name'] ?></p>
 
                             <h4 class="alert-heading">monthly installment : </h4>
-                            <p> <?php echo ($_POST['loan'] * .1 + $_POST['loan']) / ($_POST['number_of_years'] * 12) ?></p>
+                            <p> <?php echo (($_POST['loan'] * .1)* $_POST['number_of_years'] + $_POST['loan']) / ($_POST['number_of_years'] * 12) ?></p>
                         </div>'
                     <?php
                     } else {
@@ -70,15 +70,13 @@
                             <p> <?= $_POST['name'] ?></p>
 
                             <h4 class="alert-heading">monthly installment : </h4>
-                            <p> <?php echo ($_POST['loan'] * .15 + $_POST['loan']) / ($_POST['number_of_years'] * 12) ?></p>
+                            <p> <?php echo (($_POST['loan'] * .15 )* $_POST['number_of_years']+ $_POST['loan']) / ($_POST['number_of_years'] * 12) ?></p>
                         </div>'
                     <?php } ?>
 
                 <?php
                 }
                 ?>
-
-
             </div>
         </div>
     </div>

@@ -1,0 +1,38 @@
+1- CREATE DATABASE db_name; => to create database 
+2- SHOW CHARACTER SET; => to show available charachter set 
+3- SHOW COLLATION; => to show avalaible collections 
+4- DESCRIPE table_name; or DESC table_name; => to show detials about tbl 
+=====
+show 
+=====
+SHOW INDEX FROM tbl_name;
+SHOW COLUMNS FROM tbl_name;
+SHOW DATABASES;
+SHOW TABLES; 
+=========
+INDEXING
+=========
+1- primary_key
+2- foreign_key
+3- reguler
+4- unique 
+5- full_text 
+============
+adding index
+============
+ALTER TABLE tbl_name ADD PRIMARY KEY
+(index_columns);
+CREATE [UNIQUE|FULLTEXT] INDEX
+index_name
+ON table_name (index_column_name
+[ASC|DESC], ...])
+============
+delete index
+=============
+DROP INDEX `PRIMARY` ON tbl_name;
+ALTER TABLE tbl_name DROP INDEX
+index_name;
+ALTER TABLE tbl_name DROP PRIMARY
+KEY;
+ALTER TABLE tbl_name DROP FOREIGN
+KEY constraint_name
